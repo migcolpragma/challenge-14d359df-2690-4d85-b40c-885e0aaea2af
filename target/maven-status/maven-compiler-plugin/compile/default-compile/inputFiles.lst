@@ -1,0 +1,9 @@
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/Application.java
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/bdd/cucumber/AccountStepDefinitions.java
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/bdd/cucumber/AccountTestContext.java
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/bdd/karate/AccountApiClient.java
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/domain/model/Account.java
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/domain/port/AccountRepository.java
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/domain/service/AccountValidationService.java
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/infrastructure/repository/AccountEntity.java
+/Users/miguel.collantes/Desktop/Proyectos/Talent Pool/Jarvis/challenge-14d359df-2690-4d85-b40c-885e0aaea2af/src/main/java/infrastructure/repository/AccountJpaRepository.java
