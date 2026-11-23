@@ -137,7 +137,7 @@ Son las capas que la propuesta arquitectonica plantea, marcadas segun existan ho
 - `src/main/java/com/bank/account/config` (ausente)
 - `src/test/java/com/bank/account/bdd/cucumber` (ausente)
 - `src/test/java/com/bank/account/bdd/karate` (ausente)
-- `src/test/resources/features` (ausente)
+- `src/test/resources/bdd/cucumber/features` (ausente)
 
 ## Verificacion
 
