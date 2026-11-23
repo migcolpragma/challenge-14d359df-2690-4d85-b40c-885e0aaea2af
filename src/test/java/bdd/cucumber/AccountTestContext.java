@@ -2,11 +2,14 @@
 package bdd.cucumber;
 
 import domain.model.Account;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AccountTestContext {
 
     private Account account;
     private boolean isValid;
+    private boolean preRegistered;
     private String lastErrorMessage;
 
     public void setAccount(Account account) {
@@ -25,6 +28,14 @@ public class AccountTestContext {
         return isValid;
     }
 
+    public void setPreRegistered(boolean preRegistered) {
+        this.preRegistered = preRegistered;
+    }
+
+    public boolean isPreRegistered() {
+        return preRegistered;
+    }
+
     public void setErrorMessage(String message) {
         this.lastErrorMessage = message;
     }
@@ -34,6 +45,9 @@ public class AccountTestContext {
     }
 
     public void clear() {
-      throw new UnsupportedOperationException("TODO(reto): clear");
+        this.account = null;
+        this.isValid = false;
+        this.preRegistered = false;
+        this.lastErrorMessage = null;
     }
 }

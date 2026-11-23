@@ -30,6 +30,11 @@ public class Application {
     }
 
     @Bean
+    public application.usecase.AccountUseCase accountUseCase(AccountRepository accountRepository) {
+        return new application.usecase.AccountUseCase(accountRepository);
+    }
+
+    @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
