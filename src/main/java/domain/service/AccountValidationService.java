@@ -32,9 +32,7 @@ public class AccountValidationService {
 
     private void validateUniqueAccountNumber(String accountNumber) {
         accountRepository.findByAccountNumber(accountNumber)
-            .ifPresent(a -> {
-                throw new IllegalArgumentException("Account number already exists");
-            });
+            .ifPresent(a -> { throw new IllegalArgumentException("Account number already exists"); });
     }
 
     private void validateBeanConstraints(Account account) {
